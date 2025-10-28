@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Favicon -->
@@ -22,38 +23,18 @@
   </head>
 
   <body>
-    <header class="header">
-      <img
-        src="assets/sort 1.png"
-        alt="Logo do site Número da Sorte"
-        class="header__logo"
-      />
-    </header>
+   
+    <img src="assets/sort 1.png" alt="img-logo">
 
-    <main class="container">
-      <h1 class="title">Sortear um número</h1>
+    <h2>Sortear um Número</h2>
 
-      <form class="form" id="form-sorteio">
-        <fieldset class="form__group">
-          <legend class="sr-only">Intervalo de sorteio</legend>
+    <div>
+      <input placeholder="entre" class="input-min" type="number">
+      <input placeholder="e" class="input-max" type="number">
+    </div>
 
-          <label for="entre" class="sr-only">Número inicial</label>
-          <input
-            type="number"
-            id="entre"
-            name="entre"
-            placeholder="Entre"
-            required
-          />
+    <button onclick="generateNumber()">Sortear</button>
 
-          <label for="e" class="sr-only">Número final</label>
-          <input type="number" id="e" name="e" placeholder="E" required />
-        </fieldset>
-
-        <button type="submit" class="btn">Sortear</button>
-      </form>
-    </main>
-
+  </body>  
     <script src="script/script.js"></script>
-  </body>
 </html>
