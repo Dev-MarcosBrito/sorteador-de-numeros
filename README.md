@@ -9,7 +9,7 @@ O site tem como objetivo gerar <strong>números aleatórios</strong> de forma di
 
 <a href="https://dev-marcosbrito.github.io/sorteador-de-numeros/">Prévia</a>
 
-<img src="assets/preview.png" width="600px" alt="Prévia do site">
+<img href="">
 
 </div>
 
